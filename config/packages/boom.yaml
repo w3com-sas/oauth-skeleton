@@ -1,0 +1,11 @@
+w3com_boom:
+  service_layer:
+    verify_https: false
+    max_login_attempts: 5
+    cookies_storage_path: '%kernel.project_dir%/var/cookies'
+    connections: '%sl_connections%'
+  odata_service:
+    verify_https: false
+    connections: '%ods_connections%'
+  app_namespace: App
+  entity_directory: '%kernel.project_dir%/src/HanaEntity'
