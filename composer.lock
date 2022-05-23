@@ -9069,16 +9069,16 @@
         },
         {
             "name": "w3com-sas/boom",
-            "version": "v3.1.46",
+            "version": "v3.1.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/w3com-sas/boom.git",
-                "reference": "2bba6fd0bd38e1371a4c04b455fd4f521ccb571c"
+                "reference": "c4b1ff563ca22f666ed560b1486378b43caedf01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/w3com-sas/boom/zipball/2bba6fd0bd38e1371a4c04b455fd4f521ccb571c",
-                "reference": "2bba6fd0bd38e1371a4c04b455fd4f521ccb571c",
+                "url": "https://api.github.com/repos/w3com-sas/boom/zipball/c4b1ff563ca22f666ed560b1486378b43caedf01",
+                "reference": "c4b1ff563ca22f666ed560b1486378b43caedf01",
                 "shasum": ""
             },
             "require": {
@@ -9127,10 +9127,10 @@
                 "Service Layer"
             ],
             "support": {
-                "source": "https://github.com/w3com-sas/boom/tree/v3.1.46",
+                "source": "https://github.com/w3com-sas/boom/tree/master",
                 "issues": "https://github.com/w3com-sas/boom/issues"
             },
-            "time": "2022-01-11T15:42:31+00:00"
+            "time": "2022-05-23T09:29:47+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -9505,5 +9505,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
