@@ -5,6 +5,7 @@ https://stackoverflow.com/questions/56577184/github-pull-changes-from-a-template
 
 ### Create Database :
 bin/console make:migration
+
 bin/console doctrine:migrations:migrate
 
 ### Register/Manage Clients :
