@@ -38,3 +38,10 @@ services:
   App\Grant\PasswordHanaGrant:
     tags:
       - { name: league.oauth2_server.authorization_server.grant }
+
+  App\EventListener\UserResolveListener:
+    arguments:
+      - '@security.user_providers'
+      - '@security.password_hasher'
+    tags:
+      - { name: kernel.event_listener, event: league.oauth2_server.event.user_resolve, method: onUserResolve }

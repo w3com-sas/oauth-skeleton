@@ -95,7 +95,6 @@ final class PasswordHanaGrant extends AbstractGrant implements GrantTypeInterfac
 
         if($password == 'motdepassepardefautpourtesterlimmutabilite'){
             $credentialsFilePath = __DIR__.'/../../var/cookies/CREDENTIALS_'.$username.'_'.$companyDb;
-            dump($credentialsFilePath);
             if(is_file($credentialsFilePath)){
                 $credentials = json_decode(file_get_contents($credentialsFilePath),true);
                 if(array_key_exists('password',$credentials)){
